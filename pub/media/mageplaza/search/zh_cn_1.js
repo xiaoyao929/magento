@@ -1,0 +1,1 @@
+;var mp_products_search = [{"value":"test product 2","s":"test product 2 sku","c":[],"d":"","p":10,"i":"cache\/c02bf9dad0970e6ea60551b8eeab3009\/7\/a\/7a5980e436b70672dbde1c90c5d0696b.jpg","u":"test-product-2.html","o":"product_search"}];

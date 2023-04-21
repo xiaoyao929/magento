@@ -58,7 +58,9 @@ $popup_design = $_portohelper->getConfig('porto_design/header/header_minicart_po
             </div>
         </div>
     <?php endif ?>
-    <?= /* @noEscape */ $secureRenderer->renderTag('script', [], 'window.checkout = ' . /* @noEscape */ $block->getSerializedConfig(), false); ?>
+    <script>
+        window.checkout = <?= /* @noEscape */ $block->getSerializedConfig() ?>;
+    </script>
     <script type="text/x-magento-init">
     {
         "[data-block='minicart']": {
